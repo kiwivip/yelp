@@ -2,7 +2,8 @@
 # ==============================================================================
 # function: crawl shops from 'www.yelp.com'
 # author: kiwi
-# date: 2012.7.5.test1
+# date: 2012.7.5
+# just test
 # ==============================================================================
 use 5.14.2;
 use autodie;
@@ -154,7 +155,7 @@ sub getProxys
 		my ($proxy) = $_ =~ /^([\d.:]+)@/ ;
 		$proxy{$proxy} = 1 ;
 	}
-
+		
 	# read the bad proxy file to take the useless proxy out from the list
 	open my $fh_bad , "<:utf8" ,$file_bad_proxy ;
 	foreach(<$fh_bad>)

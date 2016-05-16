@@ -3,7 +3,10 @@
 # function: crawl shops from 'www.yelp.com'
 # author: kiwi
 # date: 2012.7.5
+<<<<<<< HEAD
 # just test from master
+=======
+>>>>>>> 27b6925652f646f09710cc70deb914d593515e42
 # ==============================================================================
 use 5.14.2;
 use autodie;
